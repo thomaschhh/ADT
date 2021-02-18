@@ -121,7 +121,7 @@ if __name__ == '__main__':
 
     # put files into designated folders: test/train/validation
     path_wav = pathlib.Path('/Volumes/Ext_SSD/e-gmd-v1.0.0').glob('**/*.wav')
-    #data_split(path_wav, sum_wav)
+    data_split(path_wav, sum_wav)
 
     # calculate the number of midi files
     path_midi = pathlib.Path('/Volumes/Ext_SSD/e-gmd-v1.0.0').glob('**/*.midi')
@@ -132,7 +132,7 @@ if __name__ == '__main__':
 
     # put files into designated folders: test/train/validation
     path_midi = pathlib.Path('/Volumes/Ext_SSD/e-gmd-v1.0.0').glob('**/*.midi')
-    #data_split(path_midi, sum_midi)
+    data_split(path_midi, sum_midi)
 
 
     # path to all wav files
